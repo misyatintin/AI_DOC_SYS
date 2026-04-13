@@ -1,86 +1,110 @@
 [
   {
-    "document_id": 1,
+    "id": 101,
     "filename": "invoice_1.pdf",
     "status": "completed",
-    "structured_data": {
-      "vendor_name": "Cloud Services Inc.",
-      "invoice_number": "INV-2024-001",
-      "invoice_date": "2024-03-01",
-      "currency": "USD",
-      "total_amount": 450.0,
-      "tax_amount": 0.0,
-      "line_items": [
-        {
-          "description": "Cloud Hosting",
-          "quantity": 1.0,
-          "unit_price": 450.0,
-          "line_total": 450.0
-        }
-      ]
-    },
-    "confidence_score": 0.96,
-    "validation_errors": [],
-    "missing_fields": [],
-    "processing_time_ms": 24,
-    "prompt_version": "v1.0"
+    "content_type": "application/pdf",
+    "file_size": 1336,
+    "created_at": "2026-04-13T11:10:14Z",
+    "updated_at": "2026-04-13T11:10:15Z",
+    "extraction": {
+      "id": 201,
+      "structured_data": {
+        "vendor_name": "Cloud Services Inc.",
+        "invoice_number": "INV-2024-001",
+        "invoice_date": "2024-03-01",
+        "currency": "USD",
+        "total_amount": 450.0,
+        "tax_amount": 0.0,
+        "line_items": [
+          {
+            "description": "Cloud Hosting",
+            "quantity": 1.0,
+            "unit_price": 450.0,
+            "line_total": 450.0
+          }
+        ]
+      },
+      "confidence_score": 0.98,
+      "validation_errors": [],
+      "missing_fields": [],
+      "processing_time_ms": 1864,
+      "prompt_version": "v2.0-openai-pdf",
+      "manually_corrected": false
+    }
   },
   {
-    "document_id": 2,
+    "id": 102,
     "filename": "invoice_2.pdf",
     "status": "completed",
-    "structured_data": {
-      "vendor_name": "Office Supplies Co.",
-      "invoice_number": "SUP-98765",
-      "invoice_date": "2024-03-15",
-      "currency": "USD",
-      "total_amount": 200.0,
-      "tax_amount": 0.0,
-      "line_items": [
-        {
-          "description": "Paper Reams",
-          "quantity": 5.0,
-          "unit_price": 10.0,
-          "line_total": 50.0
-        },
-        {
-          "description": "Printer Ink",
-          "quantity": 2.0,
-          "unit_price": 75.0,
-          "line_total": 150.0
-        }
-      ]
-    },
-    "confidence_score": 0.96,
-    "validation_errors": [],
-    "missing_fields": [],
-    "processing_time_ms": 29,
-    "prompt_version": "v1.0"
+    "content_type": "application/pdf",
+    "file_size": 1388,
+    "created_at": "2026-04-13T11:10:18Z",
+    "updated_at": "2026-04-13T11:10:19Z",
+    "extraction": {
+      "id": 202,
+      "structured_data": {
+        "vendor_name": "Office Supplies Co.",
+        "invoice_number": "SUP-98765",
+        "invoice_date": "2024-03-15",
+        "currency": "USD",
+        "total_amount": 200.0,
+        "tax_amount": 0.0,
+        "line_items": [
+          {
+            "description": "Paper Reams",
+            "quantity": 5.0,
+            "unit_price": 10.0,
+            "line_total": 50.0
+          },
+          {
+            "description": "Printer Ink",
+            "quantity": 2.0,
+            "unit_price": 75.0,
+            "line_total": 150.0
+          }
+        ]
+      },
+      "confidence_score": 0.98,
+      "validation_errors": [],
+      "missing_fields": [],
+      "processing_time_ms": 2097,
+      "prompt_version": "v2.0-openai-pdf",
+      "manually_corrected": false
+    }
   },
   {
-    "document_id": 3,
-    "filename": "invoice_3.pdf",
+    "id": 103,
+    "filename": "sliced-invoices-sample.pdf",
     "status": "completed",
-    "structured_data": {
-      "vendor_name": "Global Consulting Group",
-      "invoice_number": "GCG-2024-03",
-      "invoice_date": "2024-03-20",
-      "currency": "USD",
-      "total_amount": 2500.0,
-      "tax_amount": 0.0,
-      "line_items": [
-        {
-          "description": "Strategic Review",
-          "quantity": 1.0,
-          "unit_price": 2500.0,
-          "line_total": 2500.0
-        }
-      ]
-    },
-    "confidence_score": 0.96,
-    "validation_errors": [],
-    "missing_fields": [],
-    "processing_time_ms": 22,
-    "prompt_version": "v1.0"
+    "content_type": "application/pdf",
+    "file_size": 94712,
+    "created_at": "2026-04-13T11:10:22Z",
+    "updated_at": "2026-04-13T11:10:24Z",
+    "extraction": {
+      "id": 203,
+      "structured_data": {
+        "vendor_name": "DEMO - Sliced Invoices",
+        "invoice_number": "INV-3337",
+        "invoice_date": "2016-01-25",
+        "currency": "AUD",
+        "total_amount": 93.5,
+        "tax_amount": 8.5,
+        "line_items": [
+          {
+            "description": "Web Design",
+            "quantity": 1.0,
+            "unit_price": 85.0,
+            "line_total": 85.0
+          }
+        ]
+      },
+      "confidence_score": 0.98,
+      "validation_errors": [],
+      "missing_fields": [],
+      "processing_time_ms": 2471,
+      "prompt_version": "v2.0-openai-pdf",
+      "manually_corrected": false
+    }
   }
 ]
