@@ -1,0 +1,17 @@
+alembic
+aiomysql
+fastapi
+google-generativeai
+httpx
+openai
+pdfplumber
+pydantic
+pydantic-settings
+pymupdf
+pytest
+pytest-asyncio
+python-dateutil
+python-dotenv
+python-multipart
+sqlalchemy[asyncio]
+uvicorn[standard]
